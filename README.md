@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+<h1 align="center">Airline information app</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/issues/mjoel4708/airlineApp.svg)](https://github.com/mjoel4708/airlineApp/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/mjoel4708/airlineApp/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="center"> Airline Information App is a React application that displays information about airlines. It uses data from a JSON file to display a list of airlines and their basic information. When a user clicks on an airline, a modal pops up displaying more detailed information about that airline.
+    <br> 
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📝 Table of Contents
 
-### `npm test`
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Deployment](#deployment)
+- [Usage](#usage)
+- [Built Using](#built_using)
+- [TODO](../TODO.md)
+- [Contributing](../CONTRIBUTING.md)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgement)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧐 About <a name = "about"></a>
 
-### `npm run build`
+<ul>
+    <li>Display a list of airlines with basic information</li>
+    <li>Display more detailed information about an airline when a user clicks on it</li>
+    <li>Display a modal with more detailed information about an airline</li>
+    <li>Display a list of airports with basic information</li>
+</ul>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🏁 Getting Started <a name = "getting_started"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+You will need Node.js and npm (Node Package Manager) installed on your machine. You can download them from the official website: [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/get-npm).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone this repository to your local machine.
+```bash
+git clone https://github.com/Mjoel4708/airlineApp
+```
+2. Navigate to the project directory.
+```bash
+cd airlineApp
+```
+3. Install the dependencies.
+```bash
+npm install
+```
+4. Run the application.
+```bash
+npm start
+```
+5. Open your browser and navigate to http://localhost:3000.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🔧 Running the tests <a name = "tests"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To run the tests, run the following command
 
-## Learn More
+```bash
+npm run test
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎈 Usage <a name="usage"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p>Click on an airline to see more detailed information about it.</p>
 
-### Code Splitting
+## 🚀 Deployment <a name = "deployment"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Add additional notes about how to deploy this on a live system.
 
-### Analyzing the Bundle Size
+## ⛏️ Built Using <a name = "built_using"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [React](https://reactjs.org/) - Web Framework
+- [npm](https://www.npmjs.com/) - Dependency Management
+- [React Icons](https://react-icons.github.io/react-icons/) - Icons
+## ✍️ Authors <a name = "authors"></a>
 
-### Making a Progressive Web App
+- [@mjoel4708](https://github.com/mjoel4708) - Idea & Initial work
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🎉 Acknowledgements <a name = "acknowledgement"></a>
